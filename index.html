@@ -1,0 +1,142 @@
+<html>
+    <header>
+        <title>
+            cv_nama_kalian
+        </title>
+        <link rel="stylesheet" href="./assets/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" 
+        crossorigin="anonymous">
+        </script>
+        
+        <div class="mobile">
+        <nav class="navigasi">
+            <ul class="nama" >
+            <a href="#footer" style="text-decoration: none;"><li id="nav-nama">Nama kalian</li></a>
+          </ul>
+            <ul class="menu">
+                <a href="#contact"><li class="list-menu">Contact</li></a>
+                <a href="#about"><li class="list-menu">About</li></a>
+                <a href="#project"><li class="list-menu">Project</li></a>
+            </ul>
+        </nav>
+      </div>
+      
+    </header>
+    <body>
+
+        <p><img class="jumbotron" src="./assets/images/coding.jpg" />
+            <center><h1 id="typed"></h1></center>
+        </p>
+
+        <script> var typed = new Typed('#typed', {
+            strings: ['Selamat datang di website kami'],
+            strings: ['Sedang belajar fronted developer wesbite'],
+            typeSpeed: 40,
+            backSpeed: 0,
+            loop: true
+          });
+        </script>
+
+        <h2></h2>
+        <p class="project judul-menu" id="project">Keahlian</p>
+        <hr class="garis">
+        <h3 class="project-info">Berikut keahlian maupun keterampilan yang saya kuasai</h3>
+        <center>
+                <div class="row-project">
+                    <div class="column" style="background-color:#aaa;">
+                      <h2>Judul Project</h2>
+                      <p>Keterangan Project...</p>
+                    </div>
+                    
+                    <div class="column" style="background-color:#bbb;">
+                      <h2>Judul Project</h2>
+                      <p>Keterangan Project...</p>
+                    </div>
+                  </div>
+
+                    <br />
+                  <div class="row-project">
+                    <div class="column" style="background-color:#aaa;">
+                      <h2>Judul Project</h2>
+                      <p>Keterangan Project...</p>
+                    </div>
+
+                    <div class="column" style="background-color:#bbb;">
+                      <h2>Judul Project</h2>
+                      <p>Keterangan Project...</p>
+                    </div>
+                  </div>
+        </center>
+
+        <p class="about judul-menu" id="about">About</p>
+        <hr class="garis"> 
+        <h3 class="about-info">Informasi mengenai tentang diri sendiri</h3>
+
+        <div class="background-about">
+          
+          <row class="profile">
+            <center><img src="./assets/images/profile.jpg" alt="profile" width="300" height="300" id="img"></center>
+            <h1>Ricky Noviansyah</h1>
+            <h2>Programmer | Content Writter | Digital Marketing | Bug Hunter | Seo Specialist | System Administrator | Cloud DevOps</h2>
+        </div>
+        </row>
+
+  <div class="about-kolom">
+    <div class="kolom-text" style="background-color: cadetblue;">
+    <col>  1. Saya berasal di tangerang mempelajari dunia komputer sejak duduk di bangku SD
+    </div>
+
+    <div class="kolom-text" style="background-color:chocolate;">
+     <col> 2. Selama di dunia it saya sudah bisa membuat website pada bagian frontend atau tampilan depan pada halaman website
+    </div>
+  </div> 
+     
+__________________________________________________________________________________________________________________________
+        <p class="contact judul-menu" id="contact">Contact</p>
+        <hr class="garis">      
+
+        <h3 class="info-contact">Jika anda tertarik dengan saya anda bisa hubungi saya di melalui kontak di bawah ini</h3>
+        
+          <p class="agis-contact-box">
+            <center>
+            <form>
+              <input type="text" class="input-field" placeholder="Kimi No Na Wa">
+              
+              <input type="email" class="input-field" placeholder="Your Email">
+              
+              <input type="text" class="input-field" placeholder="Subject">
+
+              <textarea type="text" class="input-field textarea-field" placeholder="Your Message"></textarea>
+
+              <button type="button" class="warna-tombol">Send Message</button>
+            </form>
+            </center>
+          </p>
+        
+    </body>
+__________________________________________________________________________________________________________________________
+    
+    <a href="#nav-nama" style="text-decoration: none;">
+      <footer id="footer">
+      <h3 class="footer-nama">Social Media</h3>
+
+        <p class="background-contact">
+          <col><a target="_blank" href="https://wa.me/+6289655861413/"><button class="whatsapp">WhatsApp</button></a></col>
+          <col><a target="_blank" href="https://facebook.com/agis3636/"><button class="facebook">Facebook</button></a></col>
+          <col><a target="_blank" href="https://linkedin.com/agis3636/"><button class="linkedin">Linkedin</button></a></col>
+          <col><a target="_blank" href="https://github.com/agis3636/"><button class="github">Github</button></a></col>
+          <col><a target="_blank" href="https://Instagram.com/agis3636/"><button class="ig">Instagram</button></a></col>
+        </p>
+
+    </a>
+
+    <p id="tahun">
+      <script>
+        var d = new Date();
+        var n = d.getFullYear();
+        document.getElementById("tahun").innerHTML = n;
+      </script>
+    </p>
+
+      </footer>
+</html>
