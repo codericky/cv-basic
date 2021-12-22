@@ -99,7 +99,7 @@ clear: both;
   .column {
     float: left;
     min-width: 40%;
-    margin:55px;
+    margin:60px;
     height: 200px; 
     border-radius: 5px;
   }
@@ -201,7 +201,7 @@ clear: both;
     list-style: none;
     font-size: 22px;
     padding-right: 10px;
-    background-color: blueviolet;
+    background-color:blue;
     height: 70px;
     color: white;
     width: 100%;
