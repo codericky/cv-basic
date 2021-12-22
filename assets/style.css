@@ -96,18 +96,20 @@ clear: both;
   }
   
   /* Project Colom  */
-  .column {
-    float: left;
-    min-width: 40%;
-    margin:60px;
-    height: 200px; 
+
+  /* background-project*/
+
+  .background-project {
+    background-color: cadetblue;
+    height: 380px;
+    width: 80%;
     border-radius: 5px;
   }
-  
-  .row-project:after {
-    content: "";
-    display: table;
-    clear: both;
+
+  .text-project {
+    font-size: 18px;
+    padding-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
   }
 
 .info-project{
